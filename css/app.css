@@ -121,10 +121,10 @@
 ----------------------------------------- */
 
 	#feature 						{ max-width: 100% !important; }
-	.feature 						{ max-width: 100%; width: 100%; height: 30em; position: relative; border-top: 2px solid #111114; border-bottom: 2px solid #111114; }
+	.feature 						{ max-width: 100%; width: 100%; height: 100%; position: relative; /* border-top: 2px solid #111114; border-bottom: 2px solid #111114; */ overflow: hidden; }
 	.feature div 					{ padding: 0; background: none !important; }
 
-	.feature .slide-img 	 		{ width: 100%; height: 100%; left: 0; top: 0; position: absolute; z-index: 1; }
+	.feature .slide-img 	 		{ width: 100%; height: 100%; left: 0; top: 0; }
 	.feature .slide-img img 		{ width: 100%; height: auto; }
 	.feature .slide-copy 			{ width: 50%; display: block; position: absolute; z-index: 2; left: 55%; }
 	.feature .slide-copy .inner 	{ padding: 0; padding-top: 108px; width: 100%; height: 100%; float: left; position: relative; text-align: left; }
