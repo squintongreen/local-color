@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Local Color</title>  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="text/javascript" src="//use.typekit.net/rad2xrm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.foundation.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var overlay = $('.overlay');
+      var trigger = $('.items li');
+      $(overlay).hide();
+      $(trigger).mouseenter(function(){
+        $(this).children('.overlay').fadeIn(150);
+      }).mouseleave(function(){
+        $(this).children('.overlay').fadeOut(150);
+      });
+    });
+  </script>
+</head>
+<body id="p-id-home">
+<div id="container">
+  <div class="row header">
+    <div class="twelve columns">
+      <div class="row">
+        <div class="twelve columns title">
+          <a href="http://www.local-color.co" title="Local Color">
+            <img src="img/lc-logo-cond.png" alt="the Local Color logo" title="Local Color" />
+          </a>
+        </div>
+      </div><!-- / row -->
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="nav site">
+            <li><a href="http://www.local-color.co" title="Home">home</a></li>
+            <li><a href="http://localcolorcreations.etsy.com" title="Shop">shop</a></li>
+            <li><a href="http://www.jacquelinecrowther.com/blog" title="Blog">blog</a></li>
+            <!--<li><a href="about.html" title="About">about</a></li>-->
+            <!--<li><a href="collections.html" title="Collections">collections</a></li>-->
+            <li><a href="mailto:info@localcolorcreations.com" title="Contact">contact</a></li>
+          </ul>
+        </div>
+      </div><!-- / row -->
+    </div>
+  </div><!-- / row: header -->
+  <div class="row feature">
+    <div class="column image">
+      <img src="img/slide-rings.jpg" alt="" title="" />
+    </div>
+    <div class="column color-rose copy">
+      <div class="inner">
+        <p class="caption small">fresh for spring</p>
+        <hr class="light" />
+        <h4>bold colors, shapes, and textures</h4>
+        <a href="http://localcolorcreations.etsy.com" class="button outline rose large" title="Shop Local Color on Etsy">shop now</a>
+      </div>
+    </div>
+  </div><!-- / row: feature -->
+  <div class="row island a">
+    <div id="mc_embed_signup" class="twelve columns newsletter-call">
+      <h5 class="thin">subscribe to the newsletter for exclusive promotions,<br />local color news + inspiration.</h5>
+      <form action="http://local-color.us5.list-manage1.com/subscribe/post?u=7c1175ad3e2a9de5311931d1c&amp;id=c56f5b6da5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter" target="_blank" novalidate>
+        <div class="row">
+          <div class="nine columns mc-field-group">
+            <input type="text" id="mce-EMAIL" class="required email" name="EMAIL" placeholder="email address" />
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+          </div>
+          <div class="three columns">
+            <input type="submit" value="subscribe" id="mc-embedded-subscribe" class="button outline shadow-yellow expand submit-email" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div><!-- / row: island a -->
+  <div class="row island b">
+    <div class="twelve columns collections">
+      <div class="header">
+        <h5 class="center">featured collections</h5>
+        <h6 class="center">Mix &amp; match to make the perfect set. each collection has its own style.</h6>
+        <hr class="long" />
+      </div>
+      <div class="items">
+        <ul class="block-grid three-up">
+          <li>
+            <div class="collection-item overlay">
+              <p class="name">arsenal</p>
+              <a href="http://www.etsy.com/shop/LocalColorCreations?section_id=11811202" class="button outline">view</a>
+            </div>
+            <img src="img/collection-bangles.jpg" alt="an image of a collection item" title="Arsenal" />
+          </li>
+          <li>
+            <div class="collection-item overlay">
+              <p class="name">cotton candy</p>
+              <a href="http://www.etsy.com/shop/LocalColorCreations?section_id=12712445" class="button outline" href="#" title="">view</a>
+            </div>
+            <img src="img/collection-braids.jpg" alt="an image of a collection item" title="Cotton Candy" />
+          </li>
+          <li>
+            <div class="collection-item overlay">
+              <p class="name">market fresh</p>
+              <a href="http://www.etsy.com/shop/LocalColorCreations?section_id=11785384" class="button outline"title="">view</a>
+            </div>
+            <img src="img/collection-resin.jpg" alt="an image of a collection item" title="Market Fresh" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- / row: island b -->
+  <div class="row footer about">
+    <div class="six columns short-bio">
+      <h5 class="center">about local color</h5>
+      <hr class="thin" />
+      <div class="content-left">
+        <p>
+          Local Color was born out of a need to share my passions and rediscover my own creativity. This shop is my vehicle for combining my love of color with my endless fascination with cultures and places near and far.
+        </p>
+        <p>
+           We all have a unique perspective to share. By combining techniques and materials used for generations with my own modern and playful style, I hope to create accessories that transport you to a particular place or feeling. 
+        </p>
+        <p>
+          I want anyone wearing jewelry I made to feel not just pretty, but powerful. Wearing it, I hope you can confront the challenges and responsibilities life throws at you daily with confidence.
+        </p>
+      </div>
+    </div>
+    <div class="six columns twitter-module">
+      <h5 class="center">on twitter</h5>
+      <hr class="thin" />
+      <div class="content-right">
+        <div class="panel tweet-wrap">
+          <p class="tweet">
+            I neglected to introduce you to my new ring set this morning when they were listed. enjoy. <a href="http://buff.ly/YF68fI">http://buff.ly/YF68fI</a>  <a href="http://pic.twitter.com/A0CYLLTcmg">http://pic.twitter.com/A0CYLLTcmg</a>
+          </p>
+          <p class="tweet date">
+            <a href="#">Mar 8</a>
+          </p>
+        </div>
+        <div class="panel tweet-wrap">
+          <p class="tweet">
+            another lovely collection by Jane O featuring my rope bracelets! <a href="http://buff.ly/ZdiXiv">http://buff.ly/ZdiXiv</a>  via <a href="https://twitter.com/Etsy">@Etsy</a> <a href="http://pic.twitter.com/zL8BkSMrXp">http://pic.twitter.com/zL8BkSMrXp</a>
+          </p>
+          <p class="tweet date">
+            <a href="#">Mar 6</a>
+          </p>
+        </div>
+        <div class="panel tweet-wrap">
+          <p class="tweet">
+            <a href="https://twitter.com/RebekahRadice">@RebekahRadice</a> nope. and once i've laid it to rest long enough, i can revisit it for more obsessive repeating.
+          </p>
+          <p class="tweet date">
+            <a href="#">Mar 5</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div><!-- / row: footer about -->
+  <div class="row footer social">
+    <div class="twelve columns">
+      <h5 class="center"> connect</h5>
+      <hr class="short" />
+      <ul class="nav social">
+        <li class="button square outline rotate etsy">
+          <a href="http://localcolorcreations.etsy.com" title="Local Color on Etsy">etsy</a>
+        </li>
+        <li class="button square outline rotate twitter">
+          <a href="http://www.twitter.com/jcrowther1" title="Local Color on Twitter">twitter</a>
+        </li>
+        <li class="button square outline rotate facebook">
+          <a href="http://www.facebook.com/localcolorcreations" title="Local Color on Facebook">facebook</a>
+        </li>
+        <li class="button square outline rotate pinterest">
+          <a href="http://pinterest.com/jcrowther1" title="Local Color on Pinterest">pinterest</a>
+        </li>
+      </ul>
+    </div>
+  </div><!-- / row: footer social -->
+  <div class="row footer sitemap">
+    <div class="twelve columns nav horizontal">
+      <ul class="nav-list">
+        <li><a href="http://www.local-color.co" title="Home">home</a></li>
+        <li><a href="http://localcolorcreations.etsy.com" title="Shop">shop</a></li>
+        <li><a href="http://www.jacquelinecrowther.com/blog" title="Blog">blog</a></li>
+        <!--<li><a href="about.html" title="About">about</a></li>-->
+        <!--<li><a href="collections.html" title="Collections">collections</a></li>-->
+        <li><a href="mailto:info@localcolorcreations.com" title="Contact">contact</a></li>
+      </ul>
+    </div>
+  </div><!-- / row: footer sitemap -->
+  <div class="row footer copyright">
+    <div class="twelve mobile-four columns">
+      <p>&copy; Copyright 2013, Local Color, Inc.</p>
+      <a href="http://www.jacquelinecrowther.com" title="Jacqueline Crowther">Jacqueline Crowther</a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';
+try {
+    var jqueryLoaded=jQuery;
+    jqueryLoaded=true;
+} catch(err) {
+    var jqueryLoaded=false;
+}
+var head= document.getElementsByTagName('head')[0];
+if (!jqueryLoaded) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    head.appendChild(script);
+    if (script.readyState && script.onload!==null){
+        script.onreadystatechange= function () {
+              if (this.readyState == 'complete') mce_preload_check();
+        }    
+    }
+}
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+head.appendChild(script);
+var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+}
+var head= document.getElementsByTagName('head')[0];
+var style= document.createElement('style');
+style.type= 'text/css';
+if (style.styleSheet) {
+  style.styleSheet.cssText = err_style;
+} else {
+  style.appendChild(document.createTextNode(err_style));
+}
+head.appendChild(style);
+setTimeout('mce_preload_check();', 250);
+
+var mce_preload_checks = 0;
+function mce_preload_check(){
+    if (mce_preload_checks>40) return;
+    mce_preload_checks++;
+    try {
+        var jqueryLoaded=jQuery;
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    try {
+        var validatorLoaded=jQuery("#fake-form").validate({});
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    mce_init_form();
+}
+function mce_init_form(){
+    jQuery(document).ready( function($) {
+      var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+      var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+      $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
+      options = { url: 'http://local-color.us5.list-manage2.com/subscribe/post-json?u=7c1175ad3e2a9de5311931d1c&id=c56f5b6da5&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                    beforeSubmit: function(){
+                        $('#mce_tmp_error_msg').remove();
+                        $('.datefield','#mc_embed_signup').each(
+                            function(){
+                                var txt = 'filled';
+                                var fields = new Array();
+                                var i = 0;
+                                $(':text', this).each(
+                                    function(){
+                                        fields[i] = this;
+                                        i++;
+                                    });
+                                $(':hidden', this).each(
+                                    function(){
+                                        var bday = false;
+                                        if (fields.length == 2){
+                                            bday = true;
+                                            fields[2] = {'value':1970};//trick birthdays into having years
+                                        }
+                                      if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
+                                        this.value = '';
+                      } else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
+                                        this.value = '';
+                      } else {
+                          if (/\[day\]/.test(fields[0].name)){
+                                              this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;                         
+                          } else {
+                                              this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+                                          }
+                                      }
+                                    });
+                            });
+                        return mce_validator.form();
+                    }, 
+                    success: mce_success_cb
+                };
+      $('#mc-embedded-subscribe-form').ajaxForm(options);
+      
+      
+    });
+}
+function mce_success_cb(resp){
+    $('#mce-success-response').hide();
+    $('#mce-error-response').hide();
+    if (resp.result=="success"){
+        $('#mce-'+resp.result+'-response').show();
+        $('#mce-'+resp.result+'-response').html(resp.msg);
+        $('#mc-embedded-subscribe-form').each(function(){
+            this.reset();
+      });
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);            
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+                
+                var input_id = '#mc_embed_signup';
+                var f = $(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = $(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = $(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = $().parent(input_id).get(0);
+                }
+                if (f){
+                    $(f).append(html);
+                    $(input_id).focus();
+                } else {
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+
+</script>
+</body>
+</html>
+
+
