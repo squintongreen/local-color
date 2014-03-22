@@ -17,20 +17,18 @@
 	
 	.header,
 	.feature 						{ background: #fefefe; }
+	.header 						{ padding-top: 2.250em; padding-bottom: 2.250em; }
 
-	.header 						{ padding-bottom: 2.250em; background: none; }
-	.header a 						{ margin: 0 auto; width: 15.125em; display: block; text-align: center; }
-	.header img				 		{ margin: 0 auto; padding: 0 0 2.250em 0; text-align: center; float: none; display: block; }
-	.title 							{ padding-top: 2.250em; }
+	.title 							{ padding-left: 10%; }
 
 	.nav ul 						{ list-style-type: none; }	
-	.nav.site 						{ padding: 0 0 0 10%; width: 100%; display: block; float: left; }
+	.nav.site 						{ padding: 2% 10% 0 5%; display: block; float: right; }
 	.nav.site li 					{ margin: 0 30px; width: auto; float: left; display: inline-block; }
 	.nav.site a 					{ width: 100%; color: #414345; border-bottom: 1px solid #fefefe; text-align: center; font-size: 18px; font-weight: 600; font-variant: small-caps; letter-spacing: 1px; display: block; float: left; position: relative; }
 	.nav.site a:hover,
 	.nav.site a.active 				{ border-bottom: 1px solid #00bcf1; }
 
-	.cover 							{ height: 27.000em; overflow: hidden; border-top: 2px solid #111114; border-bottom: 2px solid #111114; }
+	.cover 							{ height: 27.000em; overflow: hidden; /*border-top: 2px solid #111114; border-bottom: 2px solid #111114;*/ }
 	.cover .cover-image 			{ padding-right: 0; padding-left: 0; overflow: hidden; }
 	.cover .cover-image img 		{ margin-bottom: -2px; width: 100%; height: 100%; }
 	.cover .cover-copy 				{ padding-top: 108px; padding-right: 60px; padding-left: 60px; }
@@ -88,17 +86,17 @@
 	.button.dark:hover 				{ background: #fafafa; color: #111114; border: 3px solid #111114; }
 	.button.border 					{ background: #fafafa; color: #111114; border: 3px solid #111114; }
 	.button.border:hover 			{ background: #111114; color: #fafafa; border: 3px solid #111114; }
-	.button.outline 				{ background: none; border: 3px solid #111114; color: #111114; }
-	.button.outline.expand 			{ border-width: 3px; }
-	.button.outline:hover 			{ background: #edf0f2; border: 3px solid #edf0f2; color: #111114; }
-	.button.outline.light 			{ background: none; border: 3px solid #fefefe; color: #fefefe; }
-	.button.outline.light:hover 	{ background: #fefefe; border: 3px solid #fefefe; color: #111114; }
+	.button.outline 				{ background: none; border: 2px solid #111114; color: #111114; font-weight: 700; }
+	.button.outline.expand 			{ border-width: 2px; }
+	.button.outline:hover 			{ background: #fafafa; border: 2px solid #111114; color: #111114; }
+	.button.outline.light 			{ background: none; border: 2px solid #fefefe; color: #fefefe; }
+	.button.outline.light:hover 	{ background: #fefefe; border: 2px solid #fefefe; color: #111114; }
 	.button.outline.shadow-yellow	{ box-shadow: 5px 5px 0 #fff000; -webkit-box-shadow: 5px 5px 0 #fff000; -moz-box-shadow: 5px 5px 0 #fff000; -ms-box-shadow: 5px 5px 0 #fff000; -o-box-shadow: 5px 5px 0 #fff000; }
-	.button.outline.shadow-yellow:hover{ background: none; border: 3px solid #4a4f59; color: #4a4f59; box-shadow: 7px 7px 0 #fff000; -webkit-box-shadow: 7px 7px 0 #fff000; -moz-box-shadow: 7px 7px 0 #fff000; -ms-box-shadow: 7px 7px 0 #fff000; -o-box-shadow: 7px 7px 0 #fff000; }
-	.button.outline.light-blue 		{ background: #fdfeff; border: 3px solid #00d9c5; color: #00d9c5; }
-	.button.outline.light-blue:hover{ background: #00d9c5; border: 3px solid #00d9c5; color: #fefefe; }
-	.button.outline.rose 			{ background: none; border: 3px solid #edf0f2; color: #edf0f2; }
-	.button.outline.rose:hover		{ background: #edf0f2; border: 3px solid #edf0f2; color: #dc322f; }
+	.button.outline.shadow-yellow:hover{ background: none; border: 2px solid #4a4f59; color: #4a4f59; box-shadow: 7px 7px 0 #fff000; -webkit-box-shadow: 7px 7px 0 #fff000; -moz-box-shadow: 7px 7px 0 #fff000; -ms-box-shadow: 7px 7px 0 #fff000; -o-box-shadow: 7px 7px 0 #fff000; }
+	.button.outline.light-blue 		{ background: #fdfeff; border: 2px solid #00d9c5; color: #00d9c5; }
+	.button.outline.light-blue:hover{ background: #00d9c5; border: 2px solid #00d9c5; color: #fefefe; }
+	.button.outline.rose 			{ background: none; border: 2px solid #edf0f2; color: #edf0f2; }
+	.button.outline.rose:hover		{ background: #edf0f2; border: 2px solid #edf0f2; color: #dc322f; }
 	.button.radius 					{ border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; }
 	.button.square 					{ width: 108px; height: 108px; }
 	.button.underline 				{ text-decoration: none; color: #111114; padding: 0 0 6px 0; border-bottom: 2px solid #111114; }
@@ -125,13 +123,13 @@
 	.feature div 					{ padding: 0; background: none !important; }
 
 	.feature .slide-img 	 		{ width: 100%; height: 100%; left: 0; top: 0; }
-	.feature .slide-img img 		{ width: 100%; height: auto; }
-	.feature .slide-copy 			{ width: 50%; display: block; position: absolute; z-index: 2; left: 55%; }
-	.feature .slide-copy .inner 	{ padding: 0; padding-top: 108px; width: 100%; height: 100%; float: left; position: relative; text-align: left; }
+	.feature .slide-img img 		{ margin-bottom: -3px; width: 100%; height: auto; }
+	.feature .slide-copy 			{ width: 50%; display: block; position: absolute; z-index: 2; left: 15%; }
+	.feature .slide-copy .inner 	{ padding: 0; padding-top: 13em; width: 100%; height: 100%; float: left; position: relative; text-align: left; }
 	.feature .slide-copy h2 		{ text-transform: uppercase; }
 	.feature .slide-copy .button 	{ margin-top: 36px; }
 
-	.promo 							{ background: #a569df; border-bottom: 2px solid #111114; }
+	.promo 							{ background: #a569df; /*border-bottom: 2px solid #111114;*/ }
 	.promo > div 					{ padding-top: 24px; padding-bottom: 24px; }
 	.promo a 						{ color: #fefefe; padding-bottom: 3px; text-decoration: none; border-bottom: 3px solid #fefefe; }
 	.promo h5 						{ color: #fefefe; text-align: center; }
