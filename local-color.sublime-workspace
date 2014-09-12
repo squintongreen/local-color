@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"ds",
+				"display	display: inline"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"h",
+				"href"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12053,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/clients/jacqueline/index.html",
+		"/Library/WebServer/Documents/clients/jacqueline/css/flexslider.css",
+		"/Library/WebServer/Documents/clients/jacqueline/img/social-pinterest.svg",
+		"/Library/WebServer/Documents/clients/jacqueline/img/social-facebook.svg",
+		"/Library/WebServer/Documents/clients/jacqueline/img/social-twitter.svg",
+		"/Library/WebServer/Documents/clients/jacqueline/img/social-etsy.svg",
+		"/Library/WebServer/Documents/portfolio/archived/stylesheets/index2.css",
+		"/Library/WebServer/Documents/portfolio/archived/index.html",
+		"/Library/WebServer/Documents/clients/jacqueline/js/jquery.flexslider.js",
+		"/Library/WebServer/Documents/portfolio/modern.html",
+		"/Library/WebServer/Documents/clients/jacqueline/css/jquery.bxslider.css",
+		"/Library/WebServer/Documents/clients/jacqueline/about.html",
+		"/Library/WebServer/Documents/leverage/emails/05/invite.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/clients/jacqueline/js/mailchimp.js",
+		"/Users/Samuel/Dropbox/Resources/Code Libraries/Frameworks/foundation-3.0.9/stylesheets/foundation.css",
+		"/Library/WebServer/Documents/clients/jacqueline/signup-confirm.html",
+		"/Library/WebServer/Documents/clients/jacqueline/css/app.css",
+		"/Library/WebServer/Documents/jacqueline/jacqueline.sublime-project",
+		"/Library/WebServer/Documents/jacqueline/jacqueline.sublime-workspace",
+		"/Library/WebServer/Documents/myzegi/documents/brief-myzegi.html",
+		"/Library/WebServer/Documents/jacqueline/index.html",
+		"/Library/WebServer/Documents/jacqueline/css/app.css",
+		"/Library/WebServer/Documents/jacqueline/css/foundation.css",
+		"/Library/WebServer/Documents/cruja/documents/invoice-cruja.html",
+		"/Library/WebServer/Documents/invoices/invoice-cruja.html",
+		"/Library/WebServer/Documents/portfolio/work.html",
+		"/Library/WebServer/Documents/portfolio/stylesheets/app.css",
+		"/Library/WebServer/Documents/hyllus-partners/about-us.html",
+		"/Library/WebServer/Documents/kirby/content/01-about-us/about-us.txt",
+		"/Library/WebServer/Documents/jacqueline/css/home2.css",
+		"/Library/WebServer/Documents/jacqueline/css/bootstrap.css",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/css/bootstrap.css",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/css/home2.css",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/index4.html",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/css/globals.css",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/css/typography.css",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/javascript.html",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/app.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/javascripts/init.js",
+		"/Users/Samuel/Dropbox/Sites/portfolio/index.html",
+		"/Users/Samuel/Dropbox/Sites/blog/index_tmpl.html",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/index.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/bootstrap.css",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/index2.html",
+		"/Users/Samuel/Dropbox/Sites/jacqueline/stylesheets/grid.css",
+		"/Users/Samuel/Dropbox/Sites/fourthr/index.html",
+		"/Users/Samuel/Dropbox/Sites/fourthr/stylesheets/home.css",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-consultation.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-estimate.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/request-service.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/special-offers.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/submit-survey.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/optional-pages.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/manage-photos.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/services.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/service-areas.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/testimonials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/credentials.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/profile.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/wizard.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/template_create.css",
+		"/Users/Samuel/Sites/mwb/template/mwb/submit-testimonial.html",
+		"/Users/Samuel/Sites/mwb/_attachments/css/bootstrap-2.css",
+		"/Users/Samuel/Sites/mwb/template/mwb/_topbar.html",
+		"/Users/Samuel/Sites/mwb/template/mwb/_.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/index.html",
+		"/Users/Samuel/Dropbox/Sites/git/bootstrap/docs/examples/starter-template.html",
+		"/Users/Samuel/Sites/mwb/_attachments/js/application.js",
+		"/Users/Samuel/Dropbox/Sites/scanshowsell/mwb/profile.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/index.html",
+		"/Users/Samuel/Dropbox/Sites/git/tumblr/art/templ_art.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"brandon-grotesque\",",
+			"\"proxima-nova\",",
+			"paintings",
+			"drawings",
+			"prints",
+			"type",
+			"category",
+			"h4",
+			"h3",
+			"intro",
+			"photo",
+			"centered",
+			"two",
+			"tow",
+			"20px",
+			"201",
+			"top",
+			"72px",
+			"etsy",
+			"150",
+			"75",
+			"social",
+			"twitter",
+			"sphere",
+			"35",
+			"10",
+			"35",
+			"75",
+			"translate",
+			"75",
+			"border",
+			"Etsy",
+			"etsy",
+			"38",
+			"Etsy",
+			"etsy",
+			"Etsy",
+			"light",
+			"dark",
+			"thin",
+			"11px",
+			"13px",
+			"javascripts",
+			"unslider",
+			"108px",
+			"57cdff",
+			"h3",
+			".footer.social",
+			"4a4f59",
+			"54px",
+			"cloumns",
+			"3px",
+			"36px",
+			".copyright",
+			"h2",
+			"h4",
+			"outline",
+			"rotate",
+			"square",
+			"h5",
+			"children",
+			"container",
+			"feature-item",
+			"menu-toggle",
+			"hide",
+			"three",
+			"	#",
+			"Contact",
+			"500",
+			"72px",
+			"p",
+			"72px",
+			"bottom",
+			"collections",
+			"thinner",
+			"thin",
+			"90px",
+			"90",
+			"none",
+			"shadow-yellow",
+			"h5",
+			"light",
+			"auto",
+			"398px",
+			"five",
+			"light-blue",
+			"h5",
+			"6",
+			"large",
+			"h6",
+			"-right",
+			" .inner 			{ padding: 54px 30px; float: left; position: relative; }\n	.caption",
+			"a href=\"#\"",
+			"price",
+			"a",
+			"div",
+			"300",
+			"hover-info",
+			"a.collection-item div",
+			"ff6600",
+			"3px",
+			"6px",
+			"4px",
+			"3px",
+			"5px",
+			"3px",
+			"4px",
+			"newsletter",
+			"edf0f2",
+			".nav.site",
+			"9px",
+			"long",
+			"85",
+			"four",
+			"<h5>",
+			"e7ebed",
+			"2px",
+			"c8d5f0",
+			"45deg",
+			"outline",
+			"h4",
+			"h5",
+			"h4",
+			"header",
+			"#",
+			"etsy",
+			"Pinterest",
+			"h3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"span12 block a\"",
+			"span10",
+			"class=\"ten columns offest-by-two\"",
+			"{validate: {required:true}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 12053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2768,
+								2771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 888.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"css/app.css"
+			],
+			[
+				"foun",
+				"css/foundation.css"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"abou",
+				"about.html"
+			],
+			[
+				"flex",
+				"css/flexslider.css"
+			],
+			[
+				"fle",
+				"css/flexslider.css"
+			],
+			[
+				"jquer",
+				"js/jquery.flexslider.js"
+			],
+			[
+				"bx",
+				"css/jquery.bxslider.css"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"ap",
+				"css/app.css"
+			],
+			[
+				"fou",
+				"css/foundation.css"
+			],
+			[
+				"founda",
+				"css/foundation.css"
+			],
+			[
+				"fo",
+				"css/foundation.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/portfolio/squintongreen.sublime-project"
+			],
+			[
+				"modern",
+				"/Users/Samuel/Sites/modern/modern.sublime-project"
+			],
+			[
+				"strea",
+				"/Library/WebServer/Documents/stream/stream.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
